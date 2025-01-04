@@ -1,7 +1,8 @@
-# AWS Magic
+# The AWS Cloud Conjurer
+## Getting the Machine Part
 Welcome magicians! If you came from playing the game (), please read the following instructions _in sequence_.
 
-## Part 1
+### Part 1
 This is for the **host**! Feel free to share your screen for this part so the team can all learn together.
 1. Launch an EC2 instance 
     1. Use the following specs:
@@ -29,7 +30,7 @@ This is for the **host**! Feel free to share your screen for this part so the te
     ```
     Your server should've started! Stop your screen share here.
 
-## Part 2
+### Part 2
 This is for everyone. The goal is to connect to the server *one-by-one* and a clue should form. This task will require 5 connections in total - if your team does not have that many members, someone will have to rerun the following steps in a new terminal.
 1. Launch the terminal on your local machine and run the following. Feel free to use a `venv` if you prefer.
     ```
@@ -39,7 +40,7 @@ This is for everyone. The goal is to connect to the server *one-by-one* and a cl
     ```
 2. You should see a prompt to Enter the EC2 instance IP address. The host will need to provide this for you (refer to Public IPv4 address on your Instance Management Console). Remember to connect *one-by-one* - once you've entered the address and hit `Enter` on your keyboard, you will be connected to the server and you should see a PyGame window.
 
-## Finally
+### Finally
 This is for the **host**!
 1. On your EC2 instance connection, press `Ctrl+C` to stop the server.
 2. Back on your Instance Management Console, select your instance and under Instance State, select Stop Instance.
