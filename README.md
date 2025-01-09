@@ -24,7 +24,7 @@ This is for the **host**! Feel free to share your screen for this part so the te
     sudo yum update -y
     sudo yum install -y python3-pip
     sudo yum install git -y
-    git clone https://github.com/elainechan01/magic.git
+    git clone https://github.com/elainechan01/the-aws-cloud-conjurer.git
     cd magic
     ./dist/server
     ```
@@ -38,7 +38,7 @@ The process will require players to have the following installed:
 - pip
 1. Launch the terminal on your local machine and run the following. Feel free to use a `venv` if you prefer.
     ```
-    git clone https://github.com/elainechan01/magic.git
+    git clone https://github.com/elainechan01/the-aws-cloud-conjurer.git
     cd magic
     pip install pygame
     python3 source/game.py
