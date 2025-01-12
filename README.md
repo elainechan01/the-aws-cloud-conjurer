@@ -38,7 +38,7 @@ The process will require players to have the following installed:
 - pip
 1. Launch the terminal on your local machine and run the following. Feel free to use a `venv` if you prefer.
     ```
-    git clone https://github.com/elainechan01/the-aws-cloud-conjurer.git
+    git clone https://github.com/elainechan01/the-aws-cloud-conjurer.git magic
     cd magic
     pip install pygame
     pip install websockets
