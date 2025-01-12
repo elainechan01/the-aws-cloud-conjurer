@@ -1,6 +1,6 @@
 # The AWS Cloud Conjurer
 ## Getting the Machine Part
-Welcome magicians! If you came from playing the game (), please read the following instructions _in sequence_.
+Welcome magicians! If you came from playing the (game)[https://elainechan01.itch.io/the-aws-cloud-conjurer], please read the following instructions _in sequence_.
 
 ### Part 1
 This is for the **host**! Feel free to share your screen for this part so the team can all learn together.
