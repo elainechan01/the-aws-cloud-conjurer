@@ -24,7 +24,7 @@ This is for the **host**! Feel free to share your screen for this part so the te
     sudo yum update -y
     sudo yum install -y python3-pip
     sudo yum install git -y
-    git clone https://github.com/elainechan01/the-aws-cloud-conjurer.git
+    git clone https://github.com/elainechan01/the-aws-cloud-conjurer.git magic
     cd magic
     ./dist/server
     ```
@@ -41,12 +41,14 @@ The process will require players to have the following installed:
     git clone https://github.com/elainechan01/the-aws-cloud-conjurer.git
     cd magic
     pip install pygame
+    pip install websockets
     python3 source/game.py
     ```
 2. You should see a prompt to Enter the EC2 instance IP address. The host will need to provide this for you (refer to Public IPv4 address on your Instance Management Console). Remember to connect *one-by-one* - once you've entered the address and hit `Enter` on your keyboard, you will be connected to the server and you should see a PyGame window.
+3. For each connection, take note of your letter e.g., connection 1 = 'A', connection 2 = 'B'. With all the letters, what word can you form? That's the name of the machine part needed.
 
 ### Finally
 This is for the **host**!
 1. On your EC2 instance connection, press `Ctrl+C` to stop the server.
 2. Back on your Instance Management Console, select your instance and under Instance State, select Stop Instance.
-**When you've completed the game, feel free to terminate this instance.**
+3. Finally, terminate your instance to avoid additional charges.
